@@ -8,7 +8,7 @@ interface DownloadButtonProps {
   showDetails?: boolean;
 }
 
-export const APP_ARCHIVE_FILENAME = "PhoneFix-App.zip";
+export const APP_ARCHIVE_FILENAME = "PhoneFix-Setup.exe";
 export const APP_ARCHIVE_URL = `${import.meta.env.BASE_URL}${APP_ARCHIVE_FILENAME}`;
 
 export default function DownloadButton({
@@ -52,8 +52,8 @@ export default function DownloadButton({
   const currentLabel = downloading
     ? "Starting Download..."
     : downloaded
-    ? "Installer Downloaded!"
-    : label;
+      ? "Installer Downloaded!"
+      : label;
 
   return (
     <div className="inline-flex flex-col items-center">
