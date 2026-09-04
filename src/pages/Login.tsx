@@ -39,11 +39,11 @@ export default function Login() {
         <div className="bg-white rounded-3xl shadow-sm border border-slate-200 p-8">
           {/* Logo */}
           <div className="flex flex-col items-center mb-8">
-            <div className="w-16 h-16 rounded-2xl bg-blue-100 flex items-center justify-center mb-4">
-              <svg width="28" height="28" viewBox="0 0 24 24" fill="none" stroke="#2563EB" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">
-                <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
-              </svg>
-            </div>
+            <img
+              src={`${import.meta.env.BASE_URL}logo.png`}
+              alt="PhoneFix Logo"
+              className="w-16 h-16 object-contain rounded-full mb-4 shadow-sm"
+            />
             <h1 className="text-2xl font-extrabold text-slate-900 tracking-wide" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
               PHONEFIX
             </h1>
