@@ -8,7 +8,7 @@ interface DownloadButtonProps {
   showDetails?: boolean;
 }
 
-export const INSTALLER_FILENAME = "PhoneFix-Installer.exe";
+export const INSTALLER_FILENAME = "PhoneFix-App.zip";
 export const INSTALLER_URL = `/${INSTALLER_FILENAME}`;
 
 export default function DownloadButton({
