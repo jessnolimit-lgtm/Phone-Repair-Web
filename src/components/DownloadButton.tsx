@@ -62,7 +62,7 @@ export default function DownloadButton({
         download={APP_ARCHIVE_FILENAME}
         onClick={handleDownloadClick}
         className={`${baseStyles} ${sizeStyles} ${variantStyles} ${className}`}
-        title="Download PhoneFix Windows app (.zip)"
+        title="Download PhoneFix Installer (.exe)"
       >
         {downloading ? (
           <svg className="animate-spin w-4 h-4 text-current" viewBox="0 0 24 24" fill="none">
@@ -90,7 +90,7 @@ export default function DownloadButton({
             <line x1="8" y1="21" x2="16" y2="21" />
             <line x1="12" y1="17" x2="12" y2="21" />
           </svg>
-          Windows Desktop App (.zip) · v1.0
+          Windows Desktop App (.exe) · v1.0
         </span>
       )}
     </div>
