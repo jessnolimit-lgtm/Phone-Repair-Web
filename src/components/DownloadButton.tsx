@@ -8,12 +8,14 @@ interface DownloadButtonProps {
   showDetails?: boolean;
 }
 
+
 export const APP_ARCHIVE_FILENAME = "Fixora-Setup.exe";
 export const APP_ARCHIVE_URL = `${import.meta.env.BASE_URL}${APP_ARCHIVE_FILENAME}`;
 
 export default function DownloadButton({
   variant = "primary",
   size = "md",
+
   label = "Download Fixora App",
   className = "",
   showDetails = false,
@@ -62,6 +64,7 @@ export default function DownloadButton({
         download={APP_ARCHIVE_FILENAME}
         onClick={handleDownloadClick}
         className={`${baseStyles} ${sizeStyles} ${variantStyles} ${className}`}
+
         title="Download Fixora Installer (.exe)"
       >
         {downloading ? (

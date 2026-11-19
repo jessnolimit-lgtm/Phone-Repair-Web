@@ -50,6 +50,7 @@ export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [showAccountModal, setShowAccountModal] = useState(false);
 
+
   const storeName = storeProfile?.store_name || user?.user_metadata?.store_name || "Fixora Repair Shop";
   const ownerName = storeProfile?.owner_name || user?.user_metadata?.owner_name || user?.email?.split("@")[0] || "Owner";
   const userEmail = user?.email || "owner@myshop.com";
