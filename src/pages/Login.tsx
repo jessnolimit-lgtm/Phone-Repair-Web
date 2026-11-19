@@ -45,7 +45,7 @@ export default function Login() {
               </svg>
             </div>
             <h1 className="text-2xl font-extrabold text-slate-900 tracking-wide" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
-              PHONEFIX
+              FIXORA
             </h1>
             <p className="text-sm text-slate-400 mt-1">Repair Shop Management</p>
           </div>

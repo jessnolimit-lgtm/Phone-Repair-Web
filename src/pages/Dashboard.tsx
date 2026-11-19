@@ -50,7 +50,7 @@ export default function Dashboard() {
   const [sidebarOpen, setSidebarOpen] = useState(false);
   const [showAccountModal, setShowAccountModal] = useState(false);
 
-  const storeName = storeProfile?.store_name || user?.user_metadata?.store_name || "PhoneFix Repair Shop";
+  const storeName = storeProfile?.store_name || user?.user_metadata?.store_name || "Fixora Repair Shop";
   const ownerName = storeProfile?.owner_name || user?.user_metadata?.owner_name || user?.email?.split("@")[0] || "Owner";
   const userEmail = user?.email || "owner@myshop.com";
   const ownerInitial = ownerName.charAt(0).toUpperCase();
@@ -85,7 +85,7 @@ export default function Dashboard() {
               <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
             </svg>
           </div>
-          <span className="font-extrabold text-slate-900 tracking-wide text-sm" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>PHONEFIX</span>
+          <span className="font-extrabold text-slate-900 tracking-wide text-sm" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>FIXORA</span>
         </div>
 
         {/* Nav */}
@@ -334,7 +334,7 @@ export default function Dashboard() {
                   <h3 className="text-base font-extrabold text-slate-900" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>
                     Account & Store Info
                   </h3>
-                  <p className="text-xs text-slate-400">PhoneFix SaaS Profile</p>
+                  <p className="text-xs text-slate-400">Fixora SaaS Profile</p>
                 </div>
               </div>
               <button

@@ -72,7 +72,7 @@ export default function Navbar({ transparent = false }: NavbarProps) {
           <a href="#pricing" className="text-sm font-medium text-slate-700 py-2" onClick={() => setOpen(false)}>Pricing</a>
           <a href="#about" className="text-sm font-medium text-slate-700 py-2" onClick={() => setOpen(false)}>About</a>
           <div className="pt-2 flex flex-col gap-2 border-t border-slate-100">
-            <DownloadButton variant="navbar" size="md" label="Install PhoneFix App" className="w-full" />
+            <DownloadButton variant="navbar" size="md" label="Install Fixora App" className="w-full" />
             <button
               onClick={() => { navigate("/login"); setOpen(false); }}
               className="text-sm font-medium text-slate-700 border border-slate-200 py-2.5 rounded-lg cursor-pointer"

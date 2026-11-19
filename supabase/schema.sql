@@ -1,5 +1,5 @@
 -- ==============================================================================
--- PhoneFix SaaS Supabase Database Schema & Row Level Security (RLS) Policies
+-- Fixora SaaS Supabase Database Schema & Row Level Security (RLS) Policies
 -- ==============================================================================
 -- Run this script in your Supabase SQL Editor (https://supabase.com/dashboard/project/_/sql)
 

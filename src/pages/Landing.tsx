@@ -47,7 +47,7 @@ export default function Landing() {
                 <span className="text-blue-600">smarter.</span>
               </h1>
               <p className="text-lg text-slate-500 leading-relaxed mb-8 max-w-lg">
-                PhoneFix keeps your phone and electronics repair business organized — from intake to release, payments to reports. No internet required.
+                Fixora keeps your phone and electronics repair business organized — from intake to release, payments to reports. No internet required.
               </p>
               <div className="flex flex-wrap items-center gap-3">
                 <button
@@ -146,7 +146,7 @@ export default function Landing() {
               Everything your repair shop needs
             </h2>
             <p className="text-slate-500 max-w-xl mx-auto">
-              From intake forms to final payment — PhoneFix covers every step of the repair workflow so you can focus on fixing, not paperwork.
+              From intake forms to final payment — Fixora covers every step of the repair workflow so you can focus on fixing, not paperwork.
             </p>
           </div>
 
@@ -273,7 +273,7 @@ export default function Landing() {
                 >
                   Create Free Account
                 </button>
-                <DownloadButton variant="cta" size="lg" label="Download PhoneFix App" />
+                <DownloadButton variant="cta" size="lg" label="Download Fixora App" />
               </div>
             </div>
           </div>
@@ -289,9 +289,9 @@ export default function Landing() {
                 <path d="M14.7 6.3a1 1 0 000 1.4l1.6 1.6a1 1 0 001.4 0l3.77-3.77a6 6 0 01-7.94 7.94l-6.91 6.91a2.12 2.12 0 01-3-3l6.91-6.91a6 6 0 017.94-7.94l-3.76 3.76z" />
               </svg>
             </div>
-            <span className="text-sm font-bold text-slate-700" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>PHONEFIX</span>
+            <span className="text-sm font-bold text-slate-700" style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}>FIXORA</span>
           </div>
-          <p className="text-xs text-slate-400">© 2026 PhoneFix. All rights reserved.</p>
+          <p className="text-xs text-slate-400">© 2026 Fixora. All rights reserved.</p>
           <div className="flex gap-5 text-xs text-slate-400">
             <a href="#" className="hover:text-slate-600 transition-colors">Privacy</a>
             <a href="#" className="hover:text-slate-600 transition-colors">Terms</a>

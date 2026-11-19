@@ -121,9 +121,9 @@
 
 # The Windows app archive and setup installers are served directly by the Vite site. Keep them as
 # regular Git blobs so static hosting receives the actual binary bytes instead of an LFS pointer.
-public/PhoneFix-Setup.exe -filter -diff -merge -text
+public/Fixora-Setup.exe -filter -diff -merge -text
 public/*.exe -filter -diff -merge -text
-public/PhoneFix-App.zip -filter -diff -merge -text
+public/Fixora-App.zip -filter -diff -merge -text
 
 # ---------------------------------------------------------------------------
 # Build Artifacts & Packages

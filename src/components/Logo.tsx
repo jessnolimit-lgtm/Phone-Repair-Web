@@ -32,7 +32,7 @@ export default function Logo({ size = "md", showText = true }: LogoProps) {
           className={`${textSizes[size]} font-extrabold tracking-wide text-slate-900`}
           style={{ fontFamily: "'Plus Jakarta Sans', sans-serif" }}
         >
-          PHONEFIX
+          FIXORA
         </span>
       )}
     </div>
